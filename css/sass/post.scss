@@ -1,0 +1,46 @@
+@import 'menu';
+@import 'reset';
+@charset "UTF-8";
+body {
+	background-color:white;
+}
+
+
+.banner{
+width:100%;
+height:450px;
+	
+	background-image: url("img/banner.jpg");
+	background-size:cover;
+	}
+
+
+.posts {
+	h1 {
+	text-align:center;
+	}
+	p {
+	text-align:center;
+	}
+	width:70%;
+	height:70%;
+	margin-left: 185px;
+	background-color:white;
+	margin-right: 185px;
+	.icons {
+		text-align:center;
+		img {
+		width: 5%;
+		margin-left:2px;
+		}
+	}
+	.conteudo {
+		img {
+			width:10%;
+		}
+		float:left;
+		width:100%;
+		margin-top:20px;
+	}
+	
+}
